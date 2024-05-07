@@ -1,0 +1,63 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "000000194DAE3E294F146CCA38FDE14874A949DCF63EC46FA27671A4A23005227EE788DE24F3CE4FDD",
+          "certpath": "D:/谷歌下载/网易云证书.cer",
+          "keyAlias": "music",
+          "keyPassword": "000000191E1D36639575B9E8271B26AAFF17AB3E373D45AFD9599E7CB022843D53000D710251BDA4C8",
+          "profile": "D:/谷歌下载/网易云Release.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "E:/weicong/key/music.p12"
+        }
+      },
+      {
+        "name": "build",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "D:/谷歌下载/网易云证书.cer",
+          "storePassword": "00000019ADF9E6DB576F2C8022B489072D626BBB2243BC3CDDF45FD6B6CFC4EF99C60904E66F465F21",
+          "keyAlias": "music",
+          "keyPassword": "000000196F7E6DDE670716F3F4627C7EEE34D15E757EA28F6EEC06BB760D689D7E129E0D7CBBB854FF",
+          "profile": "D:/谷歌下载/网易云Release.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "E:/weicong/key/music.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

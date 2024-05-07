@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/login/Login",
+    "pages/musicDetailList/MusicDetailList",
+    "pages/musicControl/MusicControl",
+    "pages/musicComment/MusicComment",
+    "pages/songGroups/SongGroups",
+    "pages/moveCase/MoveCase",
+    "pages/moveCase/MoveCaseAdd",
+    "pages/test/TestData",
+    "pages/user/UserDetail",
+    "pages/user/EditMyUser"
+  ]
+}
